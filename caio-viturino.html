@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caio Viturino, Robotic Researcher">
+
+
+        <style>
+            div.paper-summary {
+               font-size: 90%;
+            }
+            [class^="famfamfam-flag"],
+            [class*="famfamfam-flag"] {
+                display: inline-block;
+                    width: 16px;
+                    height: 11px;
+                    line-height: 11px;
+                    /* vertical-align: text-top; */
+                    background-image: url("imagens/icons/famfamfam-flags.png");
+                    background-position: 0 0;
+                    background-repeat: no-repeat;
+            }
+            .famfamfam-flag-us { background-position: -16px -44px; width: 16px; height: 11px; }
+            .famfamfam-flag-br { background-position: -192px -132px; width: 16px; height: 11px; }
+         </style>
+
+
+    <link rel="stylesheet" href="./theme/css/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./theme/css/academicicons.min.css">
+    <link rel="stylesheet" href="./theme/css/pure.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
+
+    <link rel="stylesheet" href="./theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('imagens/side_bar.jpg')">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <img class="avatar" src="imagens/caio_perfil.jpg">
+                            <h1 class="brand-main"><a href=".">Caio Viturino</a></h1>
+                            <p class="tagline">Robotic Researcher</p>
+                                <p class="links"><a href="/index.html">About</a></p>
+                                <p class="social">
+                                    <a href="https://github.com/caiobarrosv/">
+                                        <i class="fa fa-github fa-3x"></i>
+                                    </a>
+                                    <a href="https://twitter.com/ViturinoCaio/">
+                                        <i class="fa fa-twitter-square fa-3x"></i>
+                                    </a>
+                                    <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%69%6C%74%6F%3A%65%6E%67%63%61%69%6F%62%61%72%72%6F%73%40%67%6D%61%69%6C%2E%63%6F%6D">
+                                        <i class="fa fa-envelope-square fa-3x"></i>
+                                    </a>
+                                </p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h2>Caio Viturino</h2>
+                        <p class="post-meta">
+                            // under                         </p>
+                </header>
+            </section>
+            <p>I am a PhD student at the Electrical Engineering Graduate Program at the Federal University of Bahia (UFBA) in Salvador, Brazil, supervised by <a href="http://lattes.cnpq.br/6840685961007897">Prof. Dr. André Gustavo Scolari Conceição</a>. I am also a researcher at the <a href="https://www.youtube.com/channel/UC4K3EHAAxtTfAl5c8fvynDQ">Laboratory of Robotics</a> at UFBA. </p>
+<p>The goal of my research is to develop smart robotic systems capable of performing actions autonomously such as grasping and trajectory planning using deep learning techniques. </p>
+<p>If are interested, please see my full CV available in the link below:</p>
+<p><a href="https://drive.google.com/file/d/1napw8P6AGK5563Kv7S74bVfbXgUSOjxo/view?usp=sharing"><i class="fa fa-file-pdf-o" aria-hidden="true" style="color:blue" > Download CV</i></a>.</p>
+        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+
+</body>
+</html>

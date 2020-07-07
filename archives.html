@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caio Viturino, Robotic Researcher">
+
+
+        <style>
+            div.paper-summary {
+               font-size: 90%;
+            }
+            [class^="famfamfam-flag"],
+            [class*="famfamfam-flag"] {
+                display: inline-block;
+                    width: 16px;
+                    height: 11px;
+                    line-height: 11px;
+                    /* vertical-align: text-top; */
+                    background-image: url("imagens/icons/famfamfam-flags.png");
+                    background-position: 0 0;
+                    background-repeat: no-repeat;
+            }
+            .famfamfam-flag-us { background-position: -16px -44px; width: 16px; height: 11px; }
+            .famfamfam-flag-br { background-position: -192px -132px; width: 16px; height: 11px; }
+         </style>
+
+
+    <link rel="stylesheet" href="./theme/css/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./theme/css/academicicons.min.css">
+    <link rel="stylesheet" href="./theme/css/pure.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('imagens/side_bar.jpg')">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+                            <img class="avatar" src="imagens/caio_perfil.jpg">
+                            <h1 class="brand-main"><a href=".">Caio Viturino</a></h1>
+                            <p class="tagline">Robotic Researcher</p>
+                                <p class="links"><a href="/index.html">About</a></p>
+                                <p class="social">
+                                    <a href="https://github.com/caiobarrosv/">
+                                        <i class="fa fa-github fa-3x"></i>
+                                    </a>
+                                    <a href="https://twitter.com/ViturinoCaio/">
+                                        <i class="fa fa-twitter-square fa-3x"></i>
+                                    </a>
+                                    <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6D%61%69%6C%74%6F%3A%65%6E%67%63%61%69%6F%62%61%72%72%6F%73%40%67%6D%61%69%6C%2E%63%6F%6D">
+                                        <i class="fa fa-envelope-square fa-3x"></i>
+                                    </a>
+                                </p>
+                        </hgroup>
+                    </header>
+                </div>
+            </div>
+        </div>
+    <div class="pure-u-1">
+        <div class="content">
+            <h1 class="content-subhead">All posts</h1>
+                <div class="archive-item">
+                    <h5 class="archive-date">2020</h5>
+                    <h4 class="archive-date">05 julho</h4>
+                    <div class="archive-post"><a href="caio-viturino.html">Caio Viturino</a></div>
+                </div>
+                <div class="archive-item">
+                    <h5 class="archive-date">2020</h5>
+                    <h4 class="archive-date">04 julho</h4>
+                    <div class="archive-post"><a href="convolutional-neural-networks-applied-in-object-identification-and-robotic-grasping.html">Convolutional Neural Networks applied in Object Identification and Robotic Grasping</a></div>
+                </div>
+                <div class="archive-item">
+                    <h5 class="archive-date">2020</h5>
+                    <h4 class="archive-date">04 julho</h4>
+                    <div class="archive-post"><a href="adaptive-artificial-potential-fields-with-orientation-control-applied-to-robotic-manipulators.html">Adaptive Artificial Potential Fields with Orientation Control Applied to Robotic Manipulators</a></div>
+                </div>
+                <div class="archive-item">
+                    <h5 class="archive-date">2020</h5>
+                    <h4 class="archive-date">04 julho</h4>
+                    <div class="archive-post"><a href="anti-collision-system-applied-to-robotic-manipulators-based-on-artificial-potential-field-algorithm.html">Anti-collision System Applied To Robotic Manipulators Based on Artificial Potential Field Algorithm</a></div>
+                </div>
+                <div class="archive-item">
+                    <h5 class="archive-date">2020</h5>
+                    <h4 class="archive-date">04 julho</h4>
+                    <div class="archive-post"><a href="development-of-a-3-dof-robotic-manipulator-for-educational-purposes.html">Development of a 3 DOF Robotic Manipulator for educational purposes</a></div>
+                </div>
+<footer class="footer">
+    <p>&copy; Caio Viturino &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+
+</body>
+</html>
